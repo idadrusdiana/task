@@ -28,9 +28,113 @@ body {
 
 .sidebar {
     width: 30%;
+    height: 966px;
     background-color: white;
 }
 
+.dashboard {
+    width: 98%;
+    height: 1000px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+
+.dashboard-setting {
+    width: 98%;
+    height: 678px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+
+.dashboard-1 {
+    display: flex;
+    padding: 10px;
+}
+.dashboard-address {
+    padding-left: 12px;
+    padding-top: 19px;
+}
+
+.t-artikel {
+    width: 218px;
+    height: 80px;
+    background-color: #195ba2;
+    margin-left: -2px;
+    border-radius: 10px;
+}
+.t-komentar {
+    width: 218px;
+    height: 80px;
+    background-color: #e0700c;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.t-pengarang {
+    width: 218px;
+    height: 80px;
+    background-color: #1f895c;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.t-aktivitas {
+    width: 218px;
+    height: 80px;
+    background-color: #920475;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.font-dashboard {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-left: 12px;
+}
+
+.font-dashboard-2 {
+    font-size: 13px;
+    color: white;
+    margin-left: 15px;
+}
+.font-style {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-left: 12px;
+}
+
+.input{
+    width: 423px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: -7px;
+    margin-left: -2px;
+    padding-left: 7px;
+}
+
+.input-address{
+    width: 869px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: -7px;
+    margin-left: -2px;
+    padding-left: 7px;
+}
+textarea{
+    width: 869px;
+    height: 157px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: -7px;
+    margin-left: -2px;
+    padding-left: 7px;
+}
 .article {
     width: 113%;
     height: 54px;
@@ -39,9 +143,17 @@ body {
     margin-left: 1rem;
 }
 
+.article-dashboard {
+    width: 98%;
+    height: 54px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+
 .article-2 {
     width: 113%;
-    height: 468px;
+    height: 341px;
     background-color: white;
     border-radius: 15px;
     margin-left: 1rem;
@@ -107,6 +219,24 @@ body {
     border-top-right-radius: 10px;
 }
 
+.btn {
+    width: 222px;
+    height: 40px;
+    border: #195ba2;
+    border-radius: 10px;
+    background-color: #195ba2;
+    margin-left: 685px;
+    margin-top: 74px;
+    color: white;
+    font-weight: 800;
+}
+
+.btn:hover{background-color: #4b9bf0;}
+
+a{
+    text-decoration: none;
+}
+
 .part-menu {
     padding: 12px;
     background-color: #195ba2;
@@ -126,15 +256,75 @@ body {
     color: white;
 }
 
+/* .t-artikel {
+    width: 100px;
+    height: 100px;
+    background-color: #195ba2;
+} */
+
+.table {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 table {
-    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #e1edff;
 }
 
 th {
-color: white;
-background-color: #4b9bf0;
-border: 1px solid black;
+    color: white;
+    background-color: #4b9bf0;
+    font-size: 14px;
+    padding: 6px;
 }
+
+.tr-1 {
+    background-color: #d6e5f2;
+    font-size: 12px;
+}
+
+.td-1 {
+    padding: 15px;
+    text-align: left;
+}
+
+.tr-2{
+    background-color: white;
+    font-size: 12px;
+}
+
+.td-2 {
+    padding: 10px;
+}
+
+.td-button{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn1 {
+    background-color: #195ba2;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+.btn2 {
+    background-color: darkorange;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.header-table {
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+
 
 span {
     margin-right: 15px;
